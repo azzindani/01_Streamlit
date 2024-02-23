@@ -1,3 +1,4 @@
 geopandas
 matplotlib
-plotly==5.15.0
+plotly
+statsmodels
