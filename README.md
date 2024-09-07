@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2f5e075e-9b30-4c35-8057-a8dd6f74711f)![image](https://github.com/user-attachments/assets/09cf09c6-bf86-4da6-903a-a88a8f91e3c0)<a id="readme-top"></a>
+<a id="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 <details>
