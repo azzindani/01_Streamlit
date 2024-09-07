@@ -102,12 +102,14 @@ You can follow the steps below to mitigate the issue:
       <img src="/assets/006.png" alt="Logo" width="1000">
     </div>
      
-3. Onrender hosting
+3. Render hosting
    * Click the link to open the web app
    * If no issue found the web app will be directly poped up
    * If there is delaying issue you can simply wait for 30 - 60 seconds or more until the web app finished being rendered
 
-provide the web app link by table
+|No    |Name                    |Streamlit Link          |Render Link        |
+|------|------------------------|------------------------|-------------------|
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
