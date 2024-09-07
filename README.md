@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/09cf09c6-bf86-4da6-903a-a88a8f91e3c0)<a id="readme-top"></a>
+![image](https://github.com/user-attachments/assets/2f5e075e-9b30-4c35-8057-a8dd6f74711f)![image](https://github.com/user-attachments/assets/09cf09c6-bf86-4da6-903a-a88a8f91e3c0)<a id="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -73,12 +73,12 @@ The reasons are:
 The project can be preview as source code only and can't be run through google colab. You can follow the steps below to preview the source code:
 * Click on the project in this repository.
   <div align="center">
-    <img src="/assets/006.png" alt="Logo" width="1000">
+    <img src="/assets/001.png" alt="Logo" width="1000">
   </div>
   
 * GitHub will automatically render the source code preview.
   <div align="center">
-    <img src="/assets/006.png" alt="Logo" width="1000">
+    <img src="/assets/002.png" alt="Logo" width="1000">
   </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,6 +87,7 @@ The project can be preview as source code only and can't be run through google c
 
 Disclaimer:
 * This project are using the free hosting provider only, so you will find delay issue during web app preview.
+* Sometime the web app loading is slow.
 * This issue caused by each time the web app is being deployed, the provider will automatically delete the runtime while being idle for certain period, so you need to wait or sometime you need to re run the deployment.
 
 You can follow the steps below to mitigate the issue:
@@ -94,12 +95,12 @@ You can follow the steps below to mitigate the issue:
    * Click the link to open the web app
    * If no issue found the web app will be directly poped up
      <div align="center">
-      <img src="/assets/006.png" alt="Logo" width="1000">
+      <img src="/assets/003.png" alt="Logo" width="1000">
     </div>
     
    * If issue poped up, you can simply click "Yes, get this app back up!", and wait for 30 - 60 seconds or more until the web app finished being rendered.
      <div align="center">
-      <img src="/assets/006.png" alt="Logo" width="1000">
+      <img src="/assets/004.png" alt="Logo" width="1000">
     </div>
      
 3. Render hosting
@@ -109,7 +110,7 @@ You can follow the steps below to mitigate the issue:
 
 |No    |Name                    |Streamlit Link          |Render Link        |
 |------|------------------------|------------------------|-------------------|
-|1     |Adidas US Sales Dashboard|[Click Here](https://adidas-sales-us.streamlit.app/)|[Click Here](https://adidas-sales.onrender.com/)|
+|1     |Adidas US Sales Dashboard|[Click Here](https://adidas-sales-us.streamlit.app/)|-   |
 |2     |Bike Sales Dashboard|[Click Here](https://bike-sales.streamlit.app/)|[Click Here](https://bike-sales-dashboard.onrender.com/)|
 |3     |French Bakery Sales Dashboard|[Click Here](https://french-bakery.streamlit.app/)|[Click Here](https://french-bakery-sales-dashboard.onrender.com/)|
 |4     |Global Socio Economic Dashboard|[Click Here](https://global-economic.streamlit.app/)|[Click Here](https://global-socio-economic-dashboard.onrender.com/)|
@@ -132,7 +133,23 @@ I created this section to present my additional project with specific purposes a
 3. This project created spesificly to be used as interactive dashboard with login page that required username and password, so only registered user can access this dashboard / web application.
 
 You can preview the dashboard through the link below (of course I already put the userneme and password to be used as credential).
+https://adidas-sales.onrender.com/
 
+* This is the preview of the private repository
+  <div align="center">
+    <img src="/assets/005.png" alt="Logo" width="1000">
+  </div>
+
+* Login page
+  <div align="center">
+    <img src="/assets/006.png" alt="Logo" width="1000">
+  </div>
+
+* The Dashboard (also you can click logout from the web app)
+  <div align="center">
+    <img src="/assets/007.png" alt="Logo" width="1000">
+  </div>
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
