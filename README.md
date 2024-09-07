@@ -1,4 +1,4 @@
-<a id="readme-top"></a>
+![image](https://github.com/user-attachments/assets/09cf09c6-bf86-4da6-903a-a88a8f91e3c0)<a id="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -109,7 +109,18 @@ You can follow the steps below to mitigate the issue:
 
 |No    |Name                    |Streamlit Link          |Render Link        |
 |------|------------------------|------------------------|-------------------|
-
+|1     |Adidas US Sales Dashboard|[Click Here](https://adidas-sales-us.streamlit.app/)|[Click Here](https://adidas-sales.onrender.com/)|
+|2     |Bike Sales Dashboard|[Click Here](https://bike-sales.streamlit.app/)|[Click Here](https://bike-sales-dashboard.onrender.com/)|
+|3     |French Bakery Sales Dashboard|[Click Here](https://french-bakery.streamlit.app/)|[Click Here](https://french-bakery-sales-dashboard.onrender.com/)|
+|4     |Global Socio Economic Dashboard|[Click Here](https://global-economic.streamlit.app/)|[Click Here](https://global-socio-economic-dashboard.onrender.com/)|
+|5     |Superstore Sales Dahsboard|[Click Here](https://super-store.streamlit.app/)|[Click Here](https://superstore-sales-dahsboard.onrender.com/)|
+|6     |India Crop Production Dashboard|[Click Here](https://india-crop.streamlit.app/)|[Click Here](https://india-crop-production-dashboard.onrender.com/)|
+|7     |Invistico Airline Review Dashboard|[Click Here](https://invistico-airline.streamlit.app/)|[Click Here](https://invistico-airline-review-dashboard.onrender.com/)|
+|8     |New York City Property Dashboard|[Click Here](https://nyc-property.streamlit.app/)|[Click Here](https://new-york-city-property-dashboard.onrender.com/)|
+|9     |Palestinian & Israeli Fatalities based on Recorded Data|[Click Here](https://palestine-fatalities.streamlit.app/)|[Click Here](https://palestine-israel-fatalities-dashboard.onrender.com/)|
+|10    |US Unemployment Dashboard|[Click Here](https://us-unemployment.streamlit.app/)|[Click Here](https://us-unemployment-dashboard-py.onrender.com/)|
+|11    |World Energy Dashboard|[Click Here](https://world-energy.streamlit.app/)|[Click Here](https://world-energy-dashboard-py.onrender.com/)|
+|12    |World Food Production Dashboard|[Click Here](https://world-food.streamlit.app/)|[Click Here](https://world-food-production-dashboard-py.onrender.com/)|
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
