@@ -8,13 +8,12 @@
       <a href="#about-this-repository">About This Repository</a>
     </li>
     <li>
-      <a href="#import-dataset">Import Dataset</a>
-      <ul>
-        <li><a href="#import-by-url">Import by URL</a></li>
-        <li><a href="#download-dataset">Download Dataset</a></li>
-        <li><a href="#download-all-datasets">Download All Datasets</a></li>
-      </ul>
+      <a href="#interactive-dashboard-vs-static-dashboard">Interactive Dashboard vs Static Dashboard</a>
     </li>
+    <li><a href="#why-i-choose-interactive-dashboard">Why I Choose Interactive Dashboard</a></li>
+    <li><a href="#preview-the-project">Preview The Project</a></li>
+    <li><a href="#web-app-link">Web App Link</a></li>
+    <li><a href="#additional-project">Additional Project</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -84,7 +83,7 @@ The project can be preview as source code only and can't be run through google c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Final Web App Link
+## Web App Link
 
 Disclaimer:
 * This project are using the free hosting provider only, so you will find delay issue during web app preview.
