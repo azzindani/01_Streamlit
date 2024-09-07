@@ -85,6 +85,8 @@ The project can be preview as source code only and can't be run through google c
 
 ## Web App Link
 
+You can preview the dashboard via desktop or mobile phone
+
 Disclaimer:
 * This project are using the free hosting provider only, so you will find delay issue during web app preview.
 * Sometime the web app loading is slow.
