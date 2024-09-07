@@ -97,12 +97,12 @@ You can follow the steps below to mitigate the issue:
    * Click the link to open the web app
    * If no issue found the web app will be directly poped up
      <div align="center">
-      <img src="/assets/003.png" alt="Logo" width="1000">
+      <img src="/assets/004.png" alt="Logo" width="1000">
     </div>
     
    * If issue poped up, you can simply click "Yes, get this app back up!", and wait for 30 - 60 seconds or more until the web app finished being rendered.
      <div align="center">
-      <img src="/assets/004.png" alt="Logo" width="1000">
+      <img src="/assets/003.png" alt="Logo" width="1000">
     </div>
      
 3. Render hosting
