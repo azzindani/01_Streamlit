@@ -161,6 +161,7 @@ with col_13:
 
 chart_df_4 = df.groupby(by = ['killed_by'], as_index = False,)[['name']].count()
 chart_df_4 = chart_df_4.rename(columns = {'killed_by' : 'Killed by', 'name' : 'Deaths'})
+chart_df_4 = chart_df_4.sort_values(by = 'Deaths', ascending = True)
 
 with col_14:
   title = 'Deaths Killed by'
@@ -276,6 +277,7 @@ with col_22:
 
 chart_df_8 = df.groupby(by = ['event_location_district'], as_index = False,)[['name']].count()
 chart_df_8 = chart_df_8.rename(columns = {'event_location_district' : 'Event Location District', 'name' : 'Deaths'})
+chart_df_8 = chart_df_8.sort_values(by = 'Deaths', ascending = True)
 
 with col_23:
   title = 'Deaths by District'
