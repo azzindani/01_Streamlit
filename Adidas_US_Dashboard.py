@@ -195,6 +195,7 @@ with col_13:
 # create bar chart
 
 chart_df_1 = filtered_df.groupby(by = 'Retailer', as_index = False,)[['Total Sales']].sum()
+chart_df_1 = chart_df_1.sort_values(by = 'Retailer', ascending = False)
 
 with col_11:
   title = 'Sales Value by Retailer'
@@ -231,6 +232,7 @@ with col_11:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 chart_df_2 = filtered_df.groupby(by = 'Sales Method', as_index = False,)[['Total Sales']].sum()
+chart_df_2 = chart_df_2.sort_values(by = 'Sales Method', ascending = False)
 
 with col_12:
   title = 'Sales Value by Sales Method'
@@ -301,6 +303,7 @@ with col_21:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 chart_df_4 = filtered_df.groupby(by = ['Product'], as_index = False,)[['Total Sales', 'Operating Profit']].sum()
+chart_df_4 = chart_df_4.sort_values(by = 'Product', ascending = False)
 
 with col_22:
   title = 'Sales & Operating Profit by Product'
@@ -337,6 +340,7 @@ with col_22:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 chart_df_5 = filtered_df.groupby(by = ['Product', 'Sales Method'], as_index = False,)[['Operating Margin']].mean()
+chart_df_5 = chart_df_5.sort_values(by = 'Product', ascending = False)
 
 with col_23:
   title = 'Average Operating Margin'
@@ -371,6 +375,7 @@ with col_23:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 chart_df_6 = filtered_df.groupby(by = 'Product', as_index = False,)[['Total Sales']].sum()
+chart_df_6 = chart_df_6.sort_values(by = 'Product', ascending = False)
 
 col_31, col_32 = st.columns((1, 1))
 
