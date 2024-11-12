@@ -145,6 +145,7 @@ col_11, col_12 = st.columns((1, 2))
 
 chart_df_1 = sel_df.groupby(by = ['Country'], as_index = False,)[[var_num]].sum()
 chart_df_1 = chart_df_1.sort_values(by = var_num, ascending = False)[:10]
+chart_df_1 = chart_df_1.sort_values(by = var_num, ascending = True)
 
 with col_11:
   title = '10 Highest ' + var_num + ' Country'
