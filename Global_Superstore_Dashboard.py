@@ -330,6 +330,7 @@ with col_21:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 market_df_4 = filtered_df.groupby(by = ['Market'], as_index = False)[['Sales', 'Profit']].sum()
+market_df_4 = market_df_4.sort_values(by = 'Sales', ascending = True)
 
 with col_22:
   title = 'Region Market Turnover'
@@ -366,6 +367,7 @@ with col_22:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 market_df_5 = filtered_df.groupby(by = ['Market', 'Category'], as_index = False)[['Sales']].sum()
+market_df_5 = market_df_5.sort_values(by = 'Sales', ascending = True)
 
 with col_23:
   title = 'Region Market Category Outlook'
