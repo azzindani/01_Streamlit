@@ -198,6 +198,7 @@ with col_13:
 # create pie chart
 
 chart_df_1 = filtered_df.groupby(by = ['Age_Group'], as_index = False,)[['Order_Quantity']].sum()
+chart_df_1 = chart_df_1.sort_values(by = 'Order_Quantity', ascending = True)
 
 with col_11:
   title = 'Unit Sold by Age Group'
@@ -233,6 +234,7 @@ with col_11:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 chart_df_2 = filtered_df.groupby(by = ['Product_Category'], as_index = False)[['Order_Quantity']].sum()
+chart_df_2 = chart_df_2.sort_values(by = 'Order_Quantity', ascending = True)
 
 with col_12:
   title = 'Unit Sold by Product Category'
@@ -302,6 +304,7 @@ with col_21:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 chart_df_4 = filtered_df.groupby(by = ['Country', 'Product_Category'], as_index = False)[['Revenue', 'Profit']].sum()
+chart_df_4 = chart_df_4.sort_values(by = 'Revenue', ascending = True)
 
 with col_22:
   title = 'Product Category by Country'
@@ -341,6 +344,7 @@ with col_22:
 
 filtered_df['Profit Ratio'] = filtered_df['Profit'] / filtered_df['Revenue']
 chart_df_5 = filtered_df.groupby(by = ['Sub_Category'], as_index = False,)[['Profit Ratio']].mean()
+chart_df_5 = chart_df_5.sort_values(by = 'Profit Ratio', ascending = True)
 
 with col_23:
   title = 'Profit Ratio by Sub Category'
@@ -369,6 +373,7 @@ with col_23:
     st.download_button('Download Data', data = csv, file_name = title + '.csv', mime = 'text/csv', help = 'Click here to download as CSV file')
 
 chart_df_6 = filtered_df.groupby(by = ['Sub_Category'], as_index = False,)[['Revenue', 'Profit']].sum()
+chart_df_6 = chart_df_6.sort_values(by = 'Revenue', ascending = True)
 
 title = 'Sales & Operating Profit by Product'
 #st.subheader(title)
