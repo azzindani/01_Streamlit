@@ -121,8 +121,9 @@ with col_11:
   st.plotly_chart(fig, use_container_width = True, theme = streamlit_theme)
 
 chart_df_1 = df.groupby(by = ['Article'], as_index = False)[['Sales', 'Quantity']].sum()
-chart_df_1 = chart_df_1.sort_values('Sales', ascending = True)
+chart_df_1 = chart_df_1.sort_values('Sales', ascending = False)
 chart_df_1 = chart_df_1[:20]
+chart_df_1 = chart_df_1.sort_values(by = 'Sales', ascending = True)
 
 with col_12:
   title = 'Sales Value (EUR) by Top 20 Product'
