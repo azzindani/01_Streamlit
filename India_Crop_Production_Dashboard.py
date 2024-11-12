@@ -101,7 +101,8 @@ df = df[['State', 'Year', var_num]]
 col_11, col_12 = st.columns((1, 2))
 
 chart_df_1 = df.groupby(by = ['State'], as_index = False,)[[var_num]].sum()
-chart_df_1 = chart_df_1.sort_values(by = var_num, ascending = False)[:10]
+chart_df_1 = chart_df_1.sort_values(by = var_num, ascending = True)[:10]
+chart_df_1 = chart_df_1.sort_values(by = 'Total Sales', ascending = True)
 
 with col_11:
   title = '10 Highest ' + var_num + ' State'
