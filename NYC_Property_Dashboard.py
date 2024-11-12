@@ -192,6 +192,7 @@ with col_13:
 
 chart_df_1 = df.groupby(by = category, as_index = False,)[['Sale Price']].sum()
 chart_df_1 = chart_df_1.rename(columns = {'Sale Price' : 'Sales (USD)'})
+chart_df_1 = chart_df_1.sort_values(by = 'Sales (USD)', ascending = True)
 
 with col_11:
   title = 'Sales Value by ' + category
@@ -229,6 +230,7 @@ with col_11:
 
 chart_df_2 = df.groupby(by = category, as_index = False,)[['Sale Price']].count()
 chart_df_2 = chart_df_2.rename(columns = {'Sale Price' : 'Qty'})
+chart_df_2 = chart_df_2.sort_values(by = 'Qty', ascending = True)
 
 with col_12:
   title = 'Property Sold by ' + category
@@ -302,6 +304,7 @@ filtered_df['Month & Year'] = filtered_df['Sale Date'].dt.to_period('M')
 chart_df_4 = pd.DataFrame(filtered_df.groupby([filtered_df['Month & Year'], category])[[price]].mean()).reset_index()
 chart_df_4['Month & Year'] = chart_df_4['Month & Year'].astype(str)
 chart_df_4 = chart_df_4.rename(columns = {price : 'Average ' + price + ' (USD)'})
+chart_df_4 = chart_df_4.sort_values(by = 'Average ' + price + ' (USD)', ascending = True)
 
 with col_22:
   title = 'Average ' + price + ' by ' + category
