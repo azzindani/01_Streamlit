@@ -1,3 +1,10 @@
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:422indani@gmail.com)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/azzindan1/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)](https://azzindani.github.io/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/Azzindani)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/azzindani)
+---
+
 <a id="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -152,20 +159,4 @@ https://adidas-sales.onrender.com/
     <img src="/assets/007.png" alt="Logo" width="1000">
   </div>
   
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Contact
-
-<div id="badges">
-  <a href="mailto:your.422indani@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-white?style=for-the-badge&logo=gmail&logoColor=black" alt="Gmail Badge"/>
-  </a>
-  <a href="https://www.linkedin.com/in/azzindan1/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://azzindani.github.io/">
-    <img src="https://img.shields.io/badge/Github_Profile-navy?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
-  </a>
-</div>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
